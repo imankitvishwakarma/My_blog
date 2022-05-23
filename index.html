@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>bootstrap website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="nav-item container-fluid">
+          <a class="nav-link text-muted" href="#">HELLO WORLD, MY NAME IS ANKIT VISHWAKARMA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact Me</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+    <div class="text-center my-4 myname">
+       <h1 class="display-2">Ankit</h1>
+       <p class="text-muted">Personal Blog</p>   
+    </div>
+    </div>
+
+      <div class="container">
+          <div class="row">
+          <div class="col">      
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/architecture.jpg" class="d-block w-100" alt="image/agriculture.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/vacations.jpg" class="d-block w-100" alt="image/agriculture.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/train.jpg" class="d-block w-100" alt="image/agriculture.jpg">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Me  -->
+      <section class="container main-heading my-5">
+          <div class="text-center">
+              <h1 class="display-5">About Me</h1>
+              <hr class="w-25 mx-auto"/>
+          </div>
+          <div class="container">
+              <div class="row my-5">
+                  <div class="col-lg-6">
+                     <figure class="about-img">
+                         <img src="image/diary.jpg" alt="Notebook" class="img-fluid">
+                     </figure>
+                  </div>
+                  <div class="col-lg-6 justify-content-center align-items-start d-flex flex-column">
+                      <h1>My Journey</h1>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, quos ut? Perferendis veniam blanditiis, tempora
+                           explicabo in repudiandae qui mollitia. Nobis ipsam harum voluptate id dolor? Placeat, minus? Quas, voluptatum.</p>
+                           <p>
+                            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                             Read more
+                            </button>
+                          </p>
+                          <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                              <div class="card card-body" style="width: 300px;">
+                               why you read my personal blog
+                              </div>
+                            </div>
+                          </div>
+                </div>
+              </div>
+
+          </div>
+      </section>
+    <!-- Travel tips for nature loversy -->
+      <section class="container main-heading my-5 mx-auto bg-light pt-4">
+        <div class="text-center">
+            <h1 class="display-5">Travel tips for nature loversy</h1>
+            <hr class="w-75 mx-auto"/>
+        </div>
+     
+      <div class="container services">
+        <div class="row my-5">
+            <div class="col-md-4 col-10 col-lg-4 mx-auto" >
+             
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/morning.jpg" class="img-fluid rounded-start w-100 h-100" alt="image/morning.jpg"0>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-10 col-lg-4 mx-auto">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/cat.jpg" class="img-fluid rounded-start w-100 h-100" alt="image/woodpecker.jpg">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-10 col-lg-4 mx-auto">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/porridge.jpg" class="img-fluid rounded-start w-100 h-100" alt="image/woodpecker.jpg">
+                  </div>
+                  <div class="col-md-8 ">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- Gallery -->
+    <section class="container main-heading my-5 mx-auto">
+      <div class="text-center">
+          <h1 class="display-5">Gallery</h1>
+          <hr class="w-25 mx-auto"/>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row my-5"  class="w-100 h-100">
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt="" class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top" data-bs-content="You like my Gallery">
+            </figure>
+          </div>
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt=""  class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top" data-bs-content="You like my Gallery">
+            </figure>
+          </div>
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt=""  class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="top" data-bs-content="You like my Gallery">
+            </figure>
+          </div>
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt=""  class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="Bottom" data-bs-content="its osm">
+            </figure>
+          </div>
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt=""  class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="Bottom" data-bs-content="its osm">
+            </figure>
+          </div>
+          <div class="col-md-4 col-10 col-lg-4 mx-auto">
+            <figure>
+              <img src="image/diary.jpg" alt=""  class="w-100 h-100 data-bs-container="body data-bs-toggle="popover" data-bs-placement="Bottom" data-bs-content="its osm">
+            </figure>
+          </div>
+      </div>
+    </div>
+    
+<!-- Contact us -->
+    <section class="container main-heading my-5 mx-auto pt-4">
+      <div class="text-center">
+          <h1 class="display-5">Contact me</h1>
+          <hr class="w-25 mx-auto"/>
+      </div>
+      <div class="container services">
+        <div class="row my-5">
+            <div class="col-md-8 col-10 col-lg-4 mx-auto">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputMobileno." class="form-label">Mobile no.</label>
+                  <input type="Mobile no." class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>               
+               <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Submit
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Woo-hoo,thankyou for you visit!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submited</button>
+      </div>
+    </div>
+  </div>
+</div>
+              </form>
+            </div>
+        </div>
+      </div>
+    </section>
+<!-- footer -->
+<div class="container">
+  <div class="row">
+    <footer class="bg-secondary text-center text-white rounded">
+       <p class="py-3">Copyright ©2022 All rights reserved | This template is made with  by
+       <span>Ankit</span></p>     
+    </footer>
+  </div>
+</div>
+     
+    <!-- Separate Popper and Bootstrap JS -->  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script type="module">
+      import { Toast } from 'bootstrap.esm.min.js'
+    
+      Array.from(document.querySelectorAll('.toast'))
+        .forEach(toastNode => new Toast(toastNode))
+    </script>
+    <script>const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+</body>
+</html>

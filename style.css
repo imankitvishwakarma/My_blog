@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'HelveticaNeueLTPro-Md';
+}
+.myname h1, span{
+    font-family: 'Smooch', cursive;
+}
+.myname p{ 
+    margin-top: -28px; 
+}
+
+
+
